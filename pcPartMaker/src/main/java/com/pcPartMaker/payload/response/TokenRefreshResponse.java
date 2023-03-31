@@ -1,19 +1,17 @@
 package com.pcPartMaker.payload.response;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import com.pcPartMaker.model.Role;
+import java.util.List;
 
 public class TokenRefreshResponse {
 	private String accessToken;
 	private String refreshToken;
 	private String tokenType = "Bearer";
-	private Set<Role> roles = new HashSet<>();
+	private List<String> roles;
 	
-	public TokenRefreshResponse(String accessToken, String refreshToken, Set<Role> roles) {
+	//public TokenRefreshResponse(String accessToken, String refreshToken, Set<Role> roles) {
+	public TokenRefreshResponse(String accessToken, List<String> roles) {
 		this.accessToken = accessToken;
-		this.refreshToken = refreshToken;
+		//this.refreshToken = refreshToken;
 		this.roles = roles;
 	}
 
@@ -40,11 +38,11 @@ public class TokenRefreshResponse {
 	public void setTokenType(String tokenType) {
 		this.tokenType = tokenType;
 	}
-	public Set<Role> getRoles() {
+	public List<String> getRoles() {
 		return roles;
 	}
 
-	public void setRoles(Set<Role> roles) {
+	public void setRoles(List<String> roles) {
 		this.roles = roles;
 	}
 }
