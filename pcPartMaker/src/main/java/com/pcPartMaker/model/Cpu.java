@@ -43,7 +43,7 @@ public class Cpu {
             name = "socket",
             referencedColumnName = "socket"
     )
-    private SocketType socketType;
+    private CpuSocketType cpuSocketType;
 
 
     @ManyToMany(cascade = CascadeType.ALL)

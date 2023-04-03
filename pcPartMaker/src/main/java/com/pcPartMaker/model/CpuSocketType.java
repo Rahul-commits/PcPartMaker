@@ -6,7 +6,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "socket_type")
-public class SocketType {
+public class CpuSocketType {
     @Id
     private String socket;
     private short number_of_pins;
