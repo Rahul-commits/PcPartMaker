@@ -33,7 +33,10 @@ public class User {
 	@Size(max = 120)
 	private String password;
 
-	@ManyToMany(fetch = FetchType.LAZY)
+	@ManyToMany(fetch = FetchType.LAZY, cascade = {
+			CascadeType.PERSIST,
+			CascadeType.MERGE
+	})
 	@JoinTable(  name = "user_roles", 
 	joinColumns = @JoinColumn(name = "user_id"), 
 	inverseJoinColumns = @JoinColumn(name = "role_id"))
@@ -80,6 +83,19 @@ public class User {
 		this.password = password;
 	}
 
+	public void addRoles(Role role) {
+		this.roles.add(role);
+		role.getUsers().add(this);
+	}
+
+	public void removeRole(long tagId) {
+		Role role = this.roles.stream().filter(t -> t.getId() == tagId).findFirst().orElse(null);
+		if (role != null) {
+			this.roles.remove(role);
+			role.getUsers().remove(this);
+		}
+	}
+
 	public Set<Role> getRoles() {
 		return roles;
 	}
@@ -87,4 +103,6 @@ public class User {
 	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
 	}
+	
+	
 }

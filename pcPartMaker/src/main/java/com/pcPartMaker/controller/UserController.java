@@ -1,17 +1,15 @@
 package com.pcPartMaker.controller;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.ResponseCookie;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -38,8 +36,6 @@ import com.pcPartMaker.security.jwt.JwtUtils;
 import com.pcPartMaker.security.services.RefreshTokenService;
 import com.pcPartMaker.security.services.UserDetailsImpl;
 import com.pcPartMaker.service.UserService;
-import org.springframework.http.ResponseCookie;
-import org.springframework.http.HttpHeaders;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
@@ -145,7 +141,7 @@ public class UserController {
 			});
 		}
 
-		user.setRoles(roles);
+		roles.stream().forEach(role -> user.addRoles(role));
 		userService.save(user);
 
 		return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
