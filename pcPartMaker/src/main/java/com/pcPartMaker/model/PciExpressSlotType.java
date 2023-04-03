@@ -1,14 +1,17 @@
 package com.pcPartMaker.model;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
-import java.util.Collection;
 
 @Entity
-@Table(name="motherboard_chipset")
-public class MotherboardChipset {
+@Table(name = "pci_express_slot_type")
+public class PciExpressSlotType {
     @Id
-    private String chipsetModel;
+    private short generation;
+
+    private short numberOfLanes;
+    private double maxBandwidth;
 }

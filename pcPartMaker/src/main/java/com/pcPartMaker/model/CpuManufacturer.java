@@ -4,20 +4,17 @@ import lombok.Builder;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "cpu_manufacturer",uniqueConstraints = {
-        @UniqueConstraint(columnNames = "manufacturer_name")
-}
-)
+@Table(name = "cpu_manufacturer")
 public class CpuManufacturer {
     @Id
-    private String manufacturer_name;
+    private String manufacturerName;
 
 
     public String getManufacturer_name() {
-        return manufacturer_name;
+        return manufacturerName;
     }
 
-    public void setManufacturer_name(String manufacturer_name) {
-        this.manufacturer_name = manufacturer_name;
+    public void setManufacturer_name(String manufacturerName) {
+        this.manufacturerName = manufacturerName;
     }
 }
