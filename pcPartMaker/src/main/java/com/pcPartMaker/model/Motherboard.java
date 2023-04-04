@@ -18,6 +18,4 @@ public class Motherboard {
     private String productName;
     private boolean eccCompatibility;
     private int wattage;
-
-
 }

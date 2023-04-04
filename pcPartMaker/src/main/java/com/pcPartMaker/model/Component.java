@@ -3,6 +3,16 @@ package com.pcPartMaker.model;
 
 import javax.persistence.*;
 
+
+/**
+ * Parent component that owns all the hardware details. including
+ * cost rating and price.
+ * Example: a graphics card will have a ONE-TO-ONE relationship wit
+ * this component class.
+ * The contrary example would be CPUManufacturer. It doesn't have a
+ * a component parent, because it's just the name of the manufacturer
+ * NOT A COMPONENT.
+ */
 @Entity
 @Table(name = "component")
 public class Component {
