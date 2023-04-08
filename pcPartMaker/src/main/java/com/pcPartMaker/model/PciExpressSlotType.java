@@ -14,7 +14,5 @@ import javax.persistence.Table;
 public class PciExpressSlotType {
     @Id
     private short generation;
-
-    private short numberOfLanes;
     private double maxBandwidth;
 }

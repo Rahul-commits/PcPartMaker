@@ -9,14 +9,10 @@ import javax.persistence.*;
 @Table(name="graphics_card")
 public class GraphicsCard {
     @Id
-    private long modelNumber;
-    @Column(unique = true)
-    private String modelName;
-    private int TDP;
-    private double teraflopsPerSecond;
+    private String modeName;
+    private int process;
     private float clockSpeed;
-
-
+    
     @OneToOne( fetch = FetchType.EAGER,
             optional = false)
     @JoinColumn( name = "componentId",
