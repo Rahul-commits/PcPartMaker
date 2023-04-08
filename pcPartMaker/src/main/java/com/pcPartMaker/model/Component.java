@@ -1,6 +1,11 @@
 package com.pcPartMaker.model;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 
@@ -15,6 +20,10 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "component")
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Component {
     @Id
     @SequenceGenerator(

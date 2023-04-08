@@ -1,7 +1,7 @@
 package com.pcPartMaker.controller;
 
 
-import com.pcPartMaker.model.Cpu;
+import com.pcPartMaker.model.CPU;
 import com.pcPartMaker.model.GraphicsCard;
 import com.pcPartMaker.model.Motherboard;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +18,7 @@ public class ComponentController {
     }
 
     @PostMapping("/cpu")
-    public Cpu createCpu(@RequestBody Cpu cpu){
+    public CPU createCpu(@RequestBody CPU cpu){
         return null;
     }
 
@@ -48,7 +48,7 @@ public class ComponentController {
     }
 
     @GetMapping("/cpu/{model}")
-    public Cpu getCPU(@PathVariable String model){
+    public CPU getCPU(@PathVariable String model){
         return null;
     }
 

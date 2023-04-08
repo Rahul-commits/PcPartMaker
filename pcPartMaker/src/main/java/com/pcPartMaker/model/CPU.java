@@ -7,7 +7,7 @@ import java.util.List;
 @Entity
 @Data
 @Table(name="cpu")
-public class Cpu {
+public class CPU {
     @Id
     private String modelNumber;
     @Column(unique = true)
