@@ -33,7 +33,7 @@ public class Component {
     )
     @GeneratedValue(strategy = GenerationType.SEQUENCE,
                     generator = "component_sequence")
-    private Long componentId;
+    private int componentId;
     private float rating;
     private double price;
 }

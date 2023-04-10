@@ -3,10 +3,7 @@ package com.pcPartMaker.model;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Data
@@ -18,4 +15,11 @@ public class Motherboard {
     private String productName;
     private boolean eccCompatibility;
     private int wattage;
+
+    @OneToOne( fetch = FetchType.EAGER,
+            optional = false)
+    @JoinColumn( name = "componentId",
+            referencedColumnName = "componentId"
+    )
+    private Component component;
 }

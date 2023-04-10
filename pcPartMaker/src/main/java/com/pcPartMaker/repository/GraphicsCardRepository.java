@@ -1,4 +1,7 @@
 package com.pcPartMaker.repository;
 
-public interface GraphicsCardRepository {
+import com.pcPartMaker.model.GraphicsCard;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GraphicsCardRepository extends JpaRepository<GraphicsCard, String> {
 }

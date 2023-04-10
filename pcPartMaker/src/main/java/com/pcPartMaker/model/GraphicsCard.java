@@ -1,12 +1,14 @@
 package com.pcPartMaker.model;
 
 import lombok.Builder;
+import lombok.Data;
 
 import javax.persistence.*;
 
 
 @Entity
 @Table(name="graphics_card")
+@Data
 public class GraphicsCard {
     @Id
     private String modeName;
