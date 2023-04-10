@@ -40,7 +40,7 @@ public class PCPartsController {
 	@Autowired
 	private UserService userService;
 	/**
-	 * Get all users list.
+	 * Get all users list from api.
 	 *
 	 * @return the list
 	 */
