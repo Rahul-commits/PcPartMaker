@@ -9,19 +9,18 @@ import java.util.List;
 @Table(name="cpu")
 public class CPU {
     @Id
-    private String modelNumber;
+    private int modelNumber;
     @Column(unique = true)
     private String modelName;
-    private String generationName;
     private short numberOfCores;
     private String architecture;
     private Boolean eccCompatibility;
-    private float clockSpeed;
-    private short TDP;
-    private short wattage;
+    private int frequency;
+    private int TDP;
+    private int wattage;
 
 
-
+    // parent component relationship
     @OneToOne( fetch = FetchType.EAGER,
                 optional = false)
     @JoinColumn( name = "componentId",
@@ -44,18 +43,4 @@ public class CPU {
             referencedColumnName = "socket"
     )
     private CpuSocketType cpuSocketType;
-
-
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(
-            name = "motherboard_chipset_compatibility",
-            joinColumns = @JoinColumn(
-                    name = "chipset_model"
-            ),
-            inverseJoinColumns = @JoinColumn(
-                    name = "model_number"
-            )
-    )
-    private List<MotherboardChipset> motherboardChipsets;
-
 }

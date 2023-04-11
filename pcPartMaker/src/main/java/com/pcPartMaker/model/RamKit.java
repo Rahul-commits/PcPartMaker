@@ -9,19 +9,31 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
+@Table(name="ramKit")
 @Data
-@Table(name = "motherboard")
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Motherboard {
-    @Id
-    private int modelNumber;
-    @Column(unique = true)
-    private String productName;
-    private boolean eccCompatibility;
-    private int wattage;
+public class RamKit {
 
+    @Id
+    String modelName;
+
+    int moduleAmount;
+
+    @OneToOne
+    CpuManufacturer compatibleCpu;
+
+    int frequency;
+    boolean ecc;
+
+    // slot foreign key
+    @OneToOne
+    @JoinColumn(name = "dimmSlotType")
+    DimmSlotType dimmSlotType;
+
+
+    // parent component relationship
     @OneToOne( fetch = FetchType.EAGER,
             optional = false)
     @JoinColumn( name = "componentId",

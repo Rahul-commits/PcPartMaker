@@ -9,19 +9,26 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
+@Table(name="psu")
 @Data
-@Table(name = "motherboard")
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Motherboard {
+public class PSU {
     @Id
-    private int modelNumber;
-    @Column(unique = true)
-    private String productName;
-    private boolean eccCompatibility;
-    private int wattage;
+    String modelName;
 
+    String formFactor;
+
+    int maxPowerOutput;
+
+    int rating;
+
+    boolean modularity;
+    boolean ecoMode;
+
+
+    // parent component relationship
     @OneToOne( fetch = FetchType.EAGER,
             optional = false)
     @JoinColumn( name = "componentId",
