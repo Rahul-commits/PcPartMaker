@@ -22,6 +22,16 @@ public class Motherboard {
     private boolean eccCompatibility;
     private int wattage;
 
+    // dimm slot foreign key
+    @ManyToOne
+    private DimmSlotType dimmSlotType;
+    private int dimmSlotNumber;
+
+    //memory type drr3, ddr4, ddr5
+    @ManyToOne
+    private MemoryType memoryType;
+
+    // parent component
     @OneToOne( fetch = FetchType.EAGER,
             optional = false)
     @JoinColumn( name = "componentId",

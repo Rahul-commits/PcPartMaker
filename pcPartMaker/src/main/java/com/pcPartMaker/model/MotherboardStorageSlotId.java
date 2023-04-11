@@ -7,15 +7,21 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Embeddable;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import java.io.Serializable;
 
 @Embeddable
 @Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
 public class MotherboardStorageSlotId implements Serializable {
+
+
+    @ManyToOne
+    @JoinColumn(name = "motherboard")
     private Motherboard motherboard;
+
+    @ManyToOne
+    @JoinColumn(name = "storage_slot_type")
     private StorageSlotType storageSlotType;
 
 
@@ -25,7 +31,6 @@ public class MotherboardStorageSlotId implements Serializable {
 
     @Override
     public boolean equals(Object obj) {
-
         if (obj == null) return false;
         if (obj.getClass() == this.getClass()) {
             MotherboardStorageSlotId other = (MotherboardStorageSlotId) obj;

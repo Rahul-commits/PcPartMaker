@@ -18,8 +18,9 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MotherboardStorageSlot {
-    @Id
-    int something;
+
+    @EmbeddedId
+    private MotherboardStorageSlotId motherboardStorageSlotId;
 
     private int quantity;
 }

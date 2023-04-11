@@ -1,9 +1,7 @@
 package com.pcPartMaker.model;
 
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 
 /*
@@ -15,4 +13,5 @@ Only has a relationship with motherboard but number of slots need to be checked;
 public class DimmSlotType {
     @Id
     String slotVariant;
+
 }

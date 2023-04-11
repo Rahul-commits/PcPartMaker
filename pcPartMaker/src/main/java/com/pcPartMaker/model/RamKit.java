@@ -28,7 +28,7 @@ public class RamKit {
     boolean ecc;
 
     // slot foreign key
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "dimmSlotType")
     DimmSlotType dimmSlotType;
 
