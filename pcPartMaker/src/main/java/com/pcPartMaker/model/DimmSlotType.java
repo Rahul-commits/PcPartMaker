@@ -9,9 +9,15 @@ This is a variant for ram modules or kits.
 Only has a relationship with motherboard but number of slots need to be checked;
  */
 @Entity
-@Table(name="dimmSlotType")
+@Table(name="dimm_slot")
 public class DimmSlotType {
     @Id
-    String slotVariant;
+    //@GeneratedValue(strategy = GenerationType.AUTO)
+    int slotTypeId;
 
+    @Column(unique = true)
+    String slotName;
+
+    @Column(name = "description")
+    String description;
 }

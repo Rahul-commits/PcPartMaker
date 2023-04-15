@@ -1,3 +1,4 @@
+/*
 package com.pcPartMaker.model;
 
 
@@ -24,3 +25,4 @@ public class MotherboardStorageSlot {
 
     private int quantity;
 }
+*/

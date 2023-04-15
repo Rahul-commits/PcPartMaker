@@ -27,6 +27,7 @@ public class Motherboard {
     private DimmSlotType dimmSlotType;
     private int dimmSlotNumber;
 
+
     //memory type drr3, ddr4, ddr5
     @ManyToOne
     private MemoryType memoryType;

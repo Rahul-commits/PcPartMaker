@@ -1,3 +1,4 @@
+/*
 package com.pcPartMaker.model;
 
 
@@ -35,3 +36,4 @@ public class Storage {
     private Component component;
 
 }
+*/

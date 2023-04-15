@@ -1,3 +1,4 @@
+/*
 package com.pcPartMaker.model;
 
 
@@ -44,3 +45,4 @@ public class MotherboardStorageSlotId implements Serializable {
     }
 
 }
+*/

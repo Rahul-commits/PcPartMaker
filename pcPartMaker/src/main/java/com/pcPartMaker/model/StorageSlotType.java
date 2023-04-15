@@ -1,3 +1,4 @@
+/*
 package com.pcPartMaker.model;
 
 
@@ -21,3 +22,4 @@ public class StorageSlotType {
     String slotInterface;
     int version;
 }
+*/
