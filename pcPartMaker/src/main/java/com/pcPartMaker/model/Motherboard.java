@@ -30,6 +30,7 @@ public class Motherboard {
 
     //memory type drr3, ddr4, ddr5
     @ManyToOne
+    @JoinColumn(name = "memory_type")
     private MemoryType memoryType;
 
     // parent component

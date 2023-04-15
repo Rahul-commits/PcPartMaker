@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Table(name="ramKit")
+@Table(name="ram_kit")
 @Data
 @Builder
 @AllArgsConstructor
@@ -40,4 +40,7 @@ public class RamKit {
             referencedColumnName = "componentId"
     )
     private Component component;
+
+    @ManyToOne
+    private MemoryType memoryType;
 }
