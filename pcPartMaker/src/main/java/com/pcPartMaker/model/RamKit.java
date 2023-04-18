@@ -21,7 +21,7 @@ public class RamKit {
 
     int moduleAmount;
 
-    @OneToOne
+    @ManyToOne
     CpuManufacturer compatibleCpu;
 
     int frequency;
