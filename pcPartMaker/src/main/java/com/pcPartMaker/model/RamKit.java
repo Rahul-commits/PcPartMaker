@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Table(name="ram_kit")
+@Table(name = "ram_kit")
 @Data
 @Builder
 @AllArgsConstructor
@@ -22,6 +22,7 @@ public class RamKit {
     int moduleAmount;
 
     @ManyToOne
+    @JoinColumn(name = "cpu_manufacturer")
     CpuManufacturer compatibleCpu;
 
     int frequency;
@@ -34,9 +35,9 @@ public class RamKit {
 
 
     // parent component relationship
-    @OneToOne( fetch = FetchType.EAGER,
+    @OneToOne(fetch = FetchType.EAGER,
             optional = false)
-    @JoinColumn( name = "componentId",
+    @JoinColumn(name = "componentId",
             referencedColumnName = "componentId"
     )
     private Component component;
