@@ -25,7 +25,7 @@ public class RamKit implements Serializable {
     private int numberOfDims;
     @Column(unique = true, nullable = false)
     private int modelNumber;
-    @OneToOne
+    @ManyToOne
     private CpuManufacturer compatibleCpu;
 
     private int frequency;

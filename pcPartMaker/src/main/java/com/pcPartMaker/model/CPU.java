@@ -38,7 +38,7 @@ public class CPU implements Serializable {
     private Component component;
 
 
-    @OneToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "manufacturer_name",
             referencedColumnName = "manufacturerName")
     private CpuManufacturer cpuManufacturer;
