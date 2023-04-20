@@ -63,55 +63,6 @@ public class PCPartService {
 	}
 
 	public User addUser(User user) {
-
-		//Graphics
-		String line = "";
-		String splitBy = ",";
-		try
-		{
-//parsing a CSV file into BufferedReader class constructor
-			BufferedReader br = new BufferedReader(new FileReader("/Users/afsarequebal/Desktop/backend/pcPartMaker/src/main/java/com/pcPartMaker/controller/graphics.csv"));
-			int i = 0;
-			while ((line = br.readLine()) != null)  {
-				String[] m = line.split(splitBy);
-				if(i!=0){
-					String modelNumber = m[1];
-					String modelName= m[0];
-					int process = Integer.parseInt(m[2]);
-					Optional<PciExpressSlotType> pciExpressSlotType = pCIExpressSlotTypeRepository.findByGeneration(Short.valueOf(m[4].equals("")? "UNK" : m[4]));
-
-					GpuManufacturer compatibleGpu = new GpuManufacturer(m[3]);
-					int TDP = Integer.parseInt(m[5]);
-
-					int wattage= Integer.parseInt(m[6]);;
-
-					float tfs = Float.parseFloat(m[7]);
-
-					float clockSpeed = 0;
-
-					if(m.length != 8) {
-						clockSpeed = Float.parseFloat(m[8]);
-					}
-
-					int rating = ThreadLocalRandom.current().nextInt(1, 5);
-					int price = ThreadLocalRandom.current().nextInt(2000, 10000);
-					Component component = createComponent(rating, price);
-
-					graphicsCardRepository.save(new
-							GraphicsCard(modelNumber, modelName, process, compatibleGpu, pciExpressSlotType.get(),
-							TDP,wattage,tfs, clockSpeed,component));
-
-
-				}
-				i++;
-				System.out.println("done");
-			}
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
-		}
-
 		return userRepository.save(user);
 	}
 
