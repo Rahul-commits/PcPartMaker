@@ -179,7 +179,7 @@ public class UserController {
 								.header(HttpHeaders.SET_COOKIE, jwtCookie.toString())
 								//.body(new MessageResponse("Token is refreshed successfully!"));
 								.body(new TokenRefreshResponse(jwtCookie.toString() , user.getRoles().stream().map(
-										(Role role) -> role.getName().toString()).collect(Collectors.toList())));
+										(Role role) -> role.getName().toString()).collect(Collectors.toList()), user.getUsername()));
 					})
 					.orElseThrow(() -> new TokenRefreshException(refreshToken,
 							"Refresh token is not in database!"));

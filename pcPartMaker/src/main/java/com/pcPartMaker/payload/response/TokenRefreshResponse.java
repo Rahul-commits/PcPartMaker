@@ -7,12 +7,14 @@ public class TokenRefreshResponse {
 	private String refreshToken;
 	private String tokenType = "Bearer";
 	private List<String> roles;
+	private String username;
 	
 	//public TokenRefreshResponse(String accessToken, String refreshToken, Set<Role> roles) {
-	public TokenRefreshResponse(String accessToken, List<String> roles) {
+	public TokenRefreshResponse(String accessToken, List<String> roles, String username) {
 		this.accessToken = accessToken;
 		//this.refreshToken = refreshToken;
 		this.roles = roles;
+		this.username = username;
 	}
 
 	public String getAccessToken() {
@@ -44,5 +46,13 @@ public class TokenRefreshResponse {
 
 	public void setRoles(List<String> roles) {
 		this.roles = roles;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 }

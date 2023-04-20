@@ -1,6 +1,7 @@
 package com.pcPartMaker.model;
 
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,7 +16,7 @@ uniqueConstraints = {
 		@UniqueConstraint(columnNames = "username"),
 		@UniqueConstraint(columnNames = "email") 
 })
-public class User {
+public class User implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;

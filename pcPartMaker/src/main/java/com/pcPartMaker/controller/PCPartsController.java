@@ -8,6 +8,7 @@ import java.util.Set;
 
 import javax.validation.Valid;
 
+import com.pcPartMaker.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,11 +24,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.pcPartMaker.exception.ResourceNotFoundException;
-import com.pcPartMaker.model.ERole;
-import com.pcPartMaker.model.Role;
-import com.pcPartMaker.model.User;
 import com.pcPartMaker.service.PCPartService;
 import com.pcPartMaker.service.UserService;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
@@ -55,7 +56,8 @@ public class PCPartsController {
 			}
 			return new ResponseEntity<>(users, HttpStatus.OK);
 		}
-		catch (Exception e) {
+		catch (Exception e
+		) {
 			return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
