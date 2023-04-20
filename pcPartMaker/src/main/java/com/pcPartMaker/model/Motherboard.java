@@ -35,6 +35,9 @@ public class Motherboard implements Serializable {
   //  private int dimmSlotNumber;
 
 
+    @ManyToOne
+    @JoinColumn(name = "socket_type")
+    private CpuSocketType cpuSocketType;
     //memory type drr3, ddr4, ddr5
     //@JsonIgnore
     @ManyToOne
@@ -56,7 +59,7 @@ public class Motherboard implements Serializable {
 
     public Motherboard(Integer modelNumber ,String productName, boolean eccCompatibility,
                        int wattage, DimmSlotType dimmSlotType,  MemoryType memoryType,
-                       Component component,
+                       Component component, CpuSocketType cpuSocketType,
                        MotherboardAndPciSlot... motherboardPCIslots) {
         this.modelNumber = modelNumber;
         this.productName = productName;
@@ -65,6 +68,7 @@ public class Motherboard implements Serializable {
         this.dimmSlotType = dimmSlotType;
         this.memoryType = memoryType;
         this.component = component;
+        this.cpuSocketType = cpuSocketType;
         for(MotherboardAndPciSlot motherboardPCIslot : motherboardPCIslots)
             motherboardPCIslot.setMotherboard(this);
         this.motherboardPCIslots = Stream.of(motherboardPCIslots).collect(Collectors.toSet());
@@ -110,6 +114,10 @@ public class Motherboard implements Serializable {
 
     public Set<MotherboardAndPciSlot> getMotherboardPCIslots() {
         return motherboardPCIslots;
+    }
+
+    public CpuSocketType getCpuSocketType() {
+        return cpuSocketType;
     }
 } // so we have dim slot type, in here ... it is used for mapping slot type id.. which is then mapped to ram_kit
   // so we have memory type, in it is used to map to memory type table and table memory type

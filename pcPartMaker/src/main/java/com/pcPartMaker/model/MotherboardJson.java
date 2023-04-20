@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 @Data
 public class MotherboardJson implements Serializable {
-    public MotherboardJson(int modelNumber, String productName, boolean eccCompatibility, int wattage, int dimmSlotTypeId, int memoryTypeId, float rating, double price, int id, short quantity, short pciGeneration) {
+    public MotherboardJson(int modelNumber, String productName, boolean eccCompatibility, int wattage, int dimmSlotTypeId, int memoryTypeId, float rating, double price, int id, short quantity, short pciGeneration, String socket) {
         this.modelNumber = modelNumber;
         this.productName = productName;
         this.eccCompatibility = eccCompatibility;
@@ -19,6 +19,7 @@ public class MotherboardJson implements Serializable {
         this.id = id;
         this.quantity = quantity;
         this.pciGeneration = pciGeneration;
+        this.socket = socket;
     }
 
     private int modelNumber;
@@ -39,5 +40,5 @@ public class MotherboardJson implements Serializable {
 
     private short pciGeneration;
 
-
+    private String socket;
 }

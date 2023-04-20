@@ -45,6 +45,7 @@ public class CPU implements Serializable {
 
 
     @ManyToOne
+    @JoinColumn(name = "socket")
     private CpuSocketType cpuSocketType;
 
     @ManyToOne

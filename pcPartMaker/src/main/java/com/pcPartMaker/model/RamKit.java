@@ -26,6 +26,7 @@ public class RamKit implements Serializable {
     @Column(unique = true, nullable = false)
     private int modelNumber;
     @ManyToOne
+    @JoinColumn (name = "cpu_manufacturer")
     private CpuManufacturer compatibleCpu;
 
     private int frequency;
