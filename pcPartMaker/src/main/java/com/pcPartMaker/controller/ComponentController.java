@@ -428,9 +428,9 @@ public class ComponentController {
 		try {
 			UserPCConfig userPCConfigs = pCPartService.getPcConfigsById(username);
 
-			if (null == userPCConfigs) {
-				return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-			}
+//			if (null == userPCConfigs) {
+//				userPCConfigs = new UserPCConfig();
+//			}
 			return new ResponseEntity<>(userPCConfigs, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);

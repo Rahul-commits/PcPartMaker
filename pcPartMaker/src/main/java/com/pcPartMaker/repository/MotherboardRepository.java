@@ -14,4 +14,6 @@ public interface MotherboardRepository extends JpaRepository<Motherboard, Intege
     List<String> findAllMbs();
 
     Optional<Motherboard> findByModelNumber(Integer modelNumber);
+
+    List<Motherboard> findByProductName(String motherboard);
 }

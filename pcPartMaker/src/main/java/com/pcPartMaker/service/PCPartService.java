@@ -63,100 +63,6 @@ public class PCPartService {
 	}
 
 	public User addUser(User user) {
-		// Mother board
-//Ram
-
-		String line = "";
-		String splitBy = ",";
-		try
-		{
-//parsing a CSV file into BufferedReader class constructor
-			BufferedReader br = new BufferedReader(new FileReader("/Users/afsarequebal/Desktop/backend/pcPartMaker/src/main/java/com/pcPartMaker/controller/Ramkit.csv"));
-			int i = 0;
-			while ((line = br.readLine()) != null)  {
-				String[] m = line.split(splitBy);
-				if(i!=0){
-					int modelNumber = Integer.parseInt(m[7]);
-					String productName= m[1];
-					int numberofDims = Integer.parseInt(m[2]);
-					CpuManufacturer compatibleCpu = new CpuManufacturer(m[3]);
-					int frequency = Integer.parseInt(m[4]);
-
-					boolean eccCompatibility = Boolean.parseBoolean(m[5]);
-					float wattage = Float.parseFloat(m[6]);
-
-					Optional<DimmSlotType> dimmSlotType = dimmSlotTypeRepository.findBySlotName(m[9]);
-					Optional<MemoryType> memoryType = memoryTypeRepository.findByRamGeneration(m[8]);
-
-					int rating = ThreadLocalRandom.current().nextInt(1, 5);
-					int price = ThreadLocalRandom.current().nextInt(2000, 10000);
-					Component component = createComponent(rating, price);
-
-					ramKitRepository.save(new
-							RamKit(productName, 0, numberofDims, modelNumber, compatibleCpu,frequency,
-							eccCompatibility, wattage, dimmSlotType.get(), component,
-							memoryType.get()));
-					System.out.println("he");
-				}
-				i++;
-				//if(i==5) break;
-			}
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
-		}
-
-
-
-		// CPU
-//		String line = "";
-//		String splitBy = ",";
-		try
-		{
-//parsing a CSV file into BufferedReader class constructor
-			BufferedReader br = new BufferedReader(new FileReader("/Users/afsarequebal/Desktop/backend/pcPartMaker/src/main/java/com/pcPartMaker/controller/cpu.csv"));
-			int i = 0;
-			while ((line = br.readLine()) != null)  {
-				String[] m = line.split(splitBy);
-				if(i!=0){
-					int modelNumber = Integer.parseInt(m[1]);
-					String productName= m[2];
-					CpuManufacturer compatibleCpu = new CpuManufacturer(m[3]);
-					short numberOfCores = Short.parseShort(m[4]);
-
-					int TDP = Integer.parseInt(m[5]);
-					int frequency = Integer.parseInt(m[6]);
-
-					Optional<CpuSocketType> cpuSocketType = cpuSocketRepository.findById(m[7].equals("")? "UNK" : m[7]);
-					Optional<MemoryType> memoryType = memoryTypeRepository.findByRamGeneration(m[8].equals("")?"UNK": m[8]);
-					int clock = 0;
-					boolean eccCompatibility = Boolean.parseBoolean(m[9]);
-					String architecture = m[10];
-					int wattage = Integer.parseInt(m[11]);
-					if(m.length != 12) {
-						clock = Integer.parseInt(m[12]);
-					}
-
-					int rating = ThreadLocalRandom.current().nextInt(1, 5);
-					int price = ThreadLocalRandom.current().nextInt(2000, 10000);
-					Component component = createComponent(rating, price);
-					cpuRepository.save(new
-							CPU(modelNumber, productName, numberOfCores, architecture, eccCompatibility,
-							frequency,TDP,wattage,component, compatibleCpu,cpuSocketType.get(),clock,
-							memoryType.get()));
-
-					System.out.println("he");
-				}
-				i++;
-			//	if(i==5) break;
-			}
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
-		}
-
 		return userRepository.save(user);
 	}
 
@@ -547,21 +453,24 @@ public class PCPartService {
 		Optional<User> user = userRepository.findByUsername(username);
 		pCConfiguration.setUser(user.get());
 		UserPCConfig userPCConfig = getPcConfigsById(pCConfiguration.getUser().getUsername());
-		//PCConfiguration pCConfiguration	= userPCConfig.getPcConfigurationList().get(0);
 
-		//update procedure
-		String mb = pCConfiguration.getMotherboard();
-		String ram = pCConfiguration.getRam();
-		String cpu = pCConfiguration.getCpu();
-		String graphicsCard = pCConfiguration.getGraphicsCard();
-	//	if (ramKitRepository.checkMotherboardRam() && checkGPUCPU() && ) {
+		List<Motherboard> motherboard = motherboardRepository.findByProductName(pCConfiguration.getMotherboard());
+		List<CPU> cpu = cpuRepository.findByModelName(pCConfiguration.getCpu());
+		Integer mbModelNumber = motherboard.get(0).getModelNumber();
+		Integer cpuModelNumber = cpu.get(0).getModelNumber();
+		String ramModelName = pCConfiguration.getRam();
+		String graphicsCardModelName = pCConfiguration.getGraphicsCard();
+		boolean check1 = ramKitRepository.checkMotherboardRam(mbModelNumber, ramModelName);
+		boolean check2 = ramKitRepository.checkMotherboardGPU(mbModelNumber,graphicsCardModelName);
+		boolean check3 = ramKitRepository.checkMotherboardCPU(mbModelNumber,cpuModelNumber);
+		boolean check4 = ramKitRepository.checkCpuRam(cpuModelNumber,ramModelName);
+		if (check1 && check3 && check4 ) {
 			pcConfigurationRepository.save(pCConfiguration);
-
 			userPCConfig.setIsCorrectConfig(true);
 			userPCConfig.setNewPCConfigId(pCConfiguration.getId());
-//		} else {
-//			userPCConfig.setIsCorrectConfig(false);
-//		}
+		} else {
+			userPCConfig.setIsCorrectConfig(false);
+		}
 		return userPCConfig;
 	}
 

@@ -1,0 +1,501 @@
+﻿,name,numberOfDims,cpuCompatability,frequency,EccCompatability,wattage(watts),ModelNumber,memory_type,dim_slot_type
+0,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,0,ddr4,DIMM
+1,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,1,ddr4,DIMM
+2,Crucial Ballistix 16 GB,2,intel,16,False,3.06,2,ddr4,DIMM
+3,G.Skill Trident Z RGB 16 GB,4,amd,18,True,3.06,3,ddr4,DIMM
+4,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,4,ddr5,DIMM
+5,Crucial Ballistix 16 GB,2,intel,16,False,3.06,5,ddr4,DIMM
+6,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,6,ddr4,DIMM
+7,G.Skill Ripjaws V Series 32 GB,2,intel,16,False,6.14,7,ddr5,DIMM
+8,G.Skill Trident Z Neo 32 GB,2,intel,16,False,6.14,8,ddr5,DIMM
+9,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,9,ddr4,DIMM
+10,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,10,ddr5,DIMM
+11,G.Skill Ripjaws V 16 GB,2,intel,16,False,3.06,11,ddr4,DIMM
+12,Corsair Vengeance LPX 128 GB,4,amd,19,True,6.14,12,ddr5,DIMM
+13,Corsair Vengeance LPX 16 GB,4,amd,18,True,3.06,13,ddr4,DIMM
+14,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,14,ddr4,DIMM
+15,Crucial Ballistix 32 GB,2,intel,16,False,6.14,15,ddr5,DIMM
+16,G.Skill Aegis 16 GB,2,intel,16,False,3.06,16,ddr4,DIMM
+17,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,17,ddr4,DIMM
+18,Corsair Vengeance LPX 32 GB,4,amd,18,True,6.14,18,ddr5,DIMM
+19,G.Skill Trident Z RGB 128 GB,4,amd,18,True,6.14,19,ddr5,DIMM
+20,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,20,ddr4,DIMM
+21,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,21,ddr4,DIMM
+22,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,22,ddr5,DIMM
+23,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,23,ddr4,DIMM
+24,G.Skill Aegis 8 GB,2,intel,16,False,3.06,24,ddr4,DIMM
+25,G.Skill Trident Z Neo 16 GB,2,intel,16,False,3.06,25,ddr4,DIMM
+26,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,26,ddr5,DIMM
+27,Corsair Vengeance LPX 8 GB,2,intel,16,False,6.14,27,ddr5,DIMM
+28,Crucial Ballistix 16 GB,2,intel,16,False,3.06,28,ddr4,DIMM
+29,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,29,ddr4,DIMM
+30,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,30,ddr4,DIMM
+31,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,31,ddr4,DIMM
+32,Crucial Ballistix 32 GB,2,intel,16,False,6.14,32,ddr5,DIMM
+33,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,33,ddr4,DIMM
+34,Crucial Ballistix 16 GB,2,intel,16,False,3.06,34,ddr4,DIMM
+35,Kingston HyperX Fury 8 GB,2,intel,16,False,3.06,35,ddr4,DIMM
+36,Corsair Vengeance RGB Pro 64 GB,2,intel,16,False,6.14,36,ddr5,DIMM
+37,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,37,ddr4,DIMM
+38,ADATA XPG SPECTRIX D60G 16 GB,2,intel,16,False,3.06,38,ddr4,DIMM
+39,G.Skill Trident Z Royal 32 GB,4,amd,19,True,6.14,39,ddr5,DIMM
+40,OLOy MD4U083016BGDA 16 GB,2,intel,16,False,3.06,40,ddr4,DIMM
+41,G.Skill Ripjaws V 16 GB,4,amd,18,True,3.06,41,ddr4,DIMM
+42,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,42,ddr4,DIMM
+43,OLOy MD4U083216BJDA 16 GB,2,intel,16,False,3.06,43,ddr4,DIMM
+44,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,44,ddr4,DIMM
+45,G.Skill Trident Z Neo 64 GB,2,intel,16,False,6.14,45,ddr5,DIMM
+46,G.Skill Ripjaws V 32 GB,2,intel,16,False,6.14,46,ddr5,DIMM
+47,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,47,ddr4,DIMM
+48,Kingston HyperX Fury RGB 16 GB,2,intel,16,False,3.06,48,ddr4,DIMM
+49,Silicon Power XPOWER Turbine 16 GB,2,intel,16,False,3.06,49,ddr4,DIMM
+50,Crucial Ballistix MAX 16 GB,4,amd,19,True,3.06,50,ddr4,DIMM
+51,G.Skill Trident Z RGB 64 GB,4,amd,18,True,6.14,51,ddr5,DIMM
+52,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,52,ddr5,DIMM
+53,Corsair Vengeance 16 GB,2,intel,9,False,3.06,53,ddr4,DIMM
+54,Patriot Viper Steel 16 GB,4,amd,19,True,3.06,54,ddr4,DIMM
+55,G.Skill Trident Z Royal 128 GB,4,amd,18,True,6.14,55,ddr5,DIMM
+56,G.Skill Trident Z RGB 32 GB,2,intel,16,False,3.06,56,ddr4,DIMM
+57,Silicon Power SP016GXLZU320BDAJ5 16 GB,2,intel,16,False,3.06,57,ddr4,DIMM
+58,Corsair Vengeance LPX 8 GB,2,intel,16,False,3.06,58,ddr4,DIMM
+59,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,59,ddr4,DIMM
+60,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,60,ddr4,DIMM
+61,Crucial Ballistix 64 GB,2,intel,16,False,6.14,61,ddr5,DIMM
+62,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,62,ddr4,DIMM
+63,Team T-Force Delta RGB 32 GB,2,intel,16,False,6.14,63,ddr5,DIMM
+64,Corsair Dominator Platinum RGB 32 GB,4,amd,18,True,3.06,64,ddr4,DIMM
+65,G.Skill Trident Z Neo 32 GB,2,intel,16,False,3.06,65,ddr4,DIMM
+66,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,66,ddr4,DIMM
+67,Patriot Signature 1 GB,2,intel,6,False,6.14,67,ddr5,DIMM
+68,G.Skill Ripjaws V Series 8 GB,2,intel,16,False,6.14,68,ddr5,DIMM
+69,Patriot Viper Steel 16 GB,2,intel,16,False,3.06,69,ddr4,DIMM
+70,Patriot Signature Premium 8 GB,4,amd,19,True,6.14,70,ddr5,DIMM
+71,G.Skill Aegis 4 GB,2,intel,15,False,6.14,71,ddr5,DIMM
+72,Corsair Vengeance RGB Pro SL 32 GB,4,amd,18,True,6.14,72,ddr5,DIMM
+73,Team T-Force Delta RGB 16 GB,4,amd,18,True,3.06,73,ddr4,DIMM
+74,Corsair Vengeance RGB Pro 64 GB,4,amd,18,True,6.14,74,ddr5,DIMM
+75,Crucial CT64G4LFQ424A 64 GB,4,amd,17,True,6.14,75,ddr5,DIMM
+76,G.Skill Trident Z RGB 32 GB,4,amd,18,True,6.14,76,ddr5,DIMM
+77,Crucial Ballistix 16 GB,2,intel,15,False,3.06,77,ddr4,DIMM
+78,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,78,ddr5,DIMM
+79,G.Skill Trident Z RGB 32 GB,4,amd,19,True,3.06,79,ddr4,DIMM
+80,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,80,ddr4,DIMM
+81,G.Skill Ripjaws V 64 GB,4,amd,18,True,6.14,81,ddr5,DIMM
+82,Team Elite 8 GB,4,amd,22,True,3.06,82,ddr4,DIMM
+83,Crucial Ballistix 16 GB,2,intel,16,False,3.06,83,ddr4,DIMM
+84,Team T-FORCE VULCAN Z 32 GB,4,amd,18,True,6.14,84,ddr5,DIMM
+85,Crucial Ballistix 32 GB,2,intel,16,False,6.14,85,ddr5,DIMM
+86,G.Skill Trident Z Royal 256 GB,2,intel,16,False,6.14,86,ddr5,DIMM
+87,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,87,ddr4,DIMM
+88,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,88,ddr5,DIMM
+89,G.Skill Ripjaws Series 8 GB,2,intel,9,False,6.14,89,ddr5,DIMM
+90,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,90,ddr5,DIMM
+91,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,91,ddr4,DIMM
+92,Patriot Viper Steel 8 GB,2,intel,16,False,6.14,92,ddr5,DIMM
+93,Crucial Ballistix RGB 32 GB,2,intel,16,False,6.14,93,ddr5,DIMM
+94,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,94,ddr4,DIMM
+95,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,95,ddr4,DIMM
+96,Gigabyte AORUS RGB 16 GB,4,amd,18,True,3.06,96,ddr4,DIMM
+97,Crucial Ballistix 16 GB,2,intel,16,False,3.06,97,ddr4,DIMM
+98,Corsair Vengeance RGB Pro SL 16 GB,4,amd,18,True,3.06,98,ddr4,DIMM
+99,G.Skill Trident Z Neo 32 GB,4,amd,18,True,6.14,99,ddr5,DIMM
+100,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,100,ddr4,DIMM
+101,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,101,ddr4,DIMM
+102,Crucial Ballistix 16 GB,2,intel,16,False,3.06,102,ddr4,DIMM
+103,G.Skill Trident Z RGB 16 GB,4,amd,18,True,3.06,103,ddr4,DIMM
+104,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,104,ddr5,DIMM
+105,Crucial Ballistix 16 GB,2,intel,16,False,3.06,105,ddr4,DIMM
+106,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,106,ddr4,DIMM
+107,G.Skill Ripjaws V Series 32 GB,2,intel,16,False,6.14,107,ddr5,DIMM
+108,G.Skill Trident Z Neo 32 GB,2,intel,16,False,6.14,108,ddr5,DIMM
+109,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,109,ddr4,DIMM
+110,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,110,ddr5,DIMM
+111,G.Skill Ripjaws V 16 GB,2,intel,16,False,3.06,111,ddr4,DIMM
+112,Corsair Vengeance LPX 128 GB,4,amd,19,True,6.14,112,ddr5,DIMM
+113,Corsair Vengeance LPX 16 GB,4,amd,18,True,3.06,113,ddr4,DIMM
+114,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,114,ddr4,DIMM
+115,Crucial Ballistix 32 GB,2,intel,16,False,6.14,115,ddr5,DIMM
+116,G.Skill Aegis 16 GB,2,intel,16,False,3.06,116,ddr4,DIMM
+117,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,117,ddr4,DIMM
+118,Corsair Vengeance LPX 32 GB,4,amd,18,True,6.14,118,ddr5,DIMM
+119,G.Skill Trident Z RGB 128 GB,4,amd,18,True,6.14,119,ddr5,DIMM
+120,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,120,ddr4,DIMM
+121,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,121,ddr4,DIMM
+122,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,122,ddr5,DIMM
+123,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,123,ddr4,DIMM
+124,G.Skill Aegis 8 GB,2,intel,16,False,3.06,124,ddr4,DIMM
+125,G.Skill Trident Z Neo 16 GB,2,intel,16,False,3.06,125,ddr4,DIMM
+126,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,126,ddr5,DIMM
+127,Corsair Vengeance LPX 8 GB,2,intel,16,False,6.14,127,ddr5,DIMM
+128,Crucial Ballistix 16 GB,2,intel,16,False,3.06,128,ddr4,DIMM
+129,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,129,ddr4,DIMM
+130,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,130,ddr4,DIMM
+131,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,131,ddr4,DIMM
+132,Crucial Ballistix 32 GB,2,intel,16,False,6.14,132,ddr5,DIMM
+133,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,133,ddr4,DIMM
+134,Crucial Ballistix 16 GB,2,intel,16,False,3.06,134,ddr4,DIMM
+135,Kingston HyperX Fury 8 GB,2,intel,16,False,3.06,135,ddr4,DIMM
+136,Corsair Vengeance RGB Pro 64 GB,2,intel,16,False,6.14,136,ddr5,DIMM
+137,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,137,ddr4,DIMM
+138,ADATA XPG SPECTRIX D60G 16 GB,2,intel,16,False,3.06,138,ddr4,DIMM
+139,G.Skill Trident Z Royal 32 GB,4,amd,19,True,6.14,139,ddr5,DIMM
+140,OLOy MD4U083016BGDA 16 GB,2,intel,16,False,3.06,140,ddr4,DIMM
+141,G.Skill Ripjaws V 16 GB,4,amd,18,True,3.06,141,ddr4,DIMM
+142,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,142,ddr4,DIMM
+143,OLOy MD4U083216BJDA 16 GB,2,intel,16,False,3.06,143,ddr4,DIMM
+144,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,144,ddr4,DIMM
+145,G.Skill Trident Z Neo 64 GB,2,intel,16,False,6.14,145,ddr5,DIMM
+146,G.Skill Ripjaws V 32 GB,2,intel,16,False,6.14,146,ddr5,DIMM
+147,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,147,ddr4,DIMM
+148,Kingston HyperX Fury RGB 16 GB,2,intel,16,False,3.06,148,ddr4,DIMM
+149,Silicon Power XPOWER Turbine 16 GB,2,intel,16,False,3.06,149,ddr4,DIMM
+150,Crucial Ballistix MAX 16 GB,4,amd,19,True,3.06,150,ddr4,DIMM
+151,G.Skill Trident Z RGB 64 GB,4,amd,18,True,6.14,151,ddr5,DIMM
+152,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,152,ddr5,DIMM
+153,Corsair Vengeance 16 GB,2,intel,9,False,3.06,153,ddr4,DIMM
+154,Patriot Viper Steel 16 GB,4,amd,19,True,3.06,154,ddr4,DIMM
+155,G.Skill Trident Z Royal 128 GB,4,amd,18,True,6.14,155,ddr5,DIMM
+156,G.Skill Trident Z RGB 32 GB,2,intel,16,False,3.06,156,ddr4,DIMM
+157,Silicon Power SP016GXLZU320BDAJ5 16 GB,2,intel,16,False,3.06,157,ddr4,DIMM
+158,Corsair Vengeance LPX 8 GB,2,intel,16,False,3.06,158,ddr4,DIMM
+159,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,159,ddr4,DIMM
+160,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,160,ddr4,DIMM
+161,Crucial Ballistix 64 GB,2,intel,16,False,6.14,161,ddr5,DIMM
+162,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,162,ddr4,DIMM
+163,Team T-Force Delta RGB 32 GB,2,intel,16,False,6.14,163,ddr5,DIMM
+164,Corsair Dominator Platinum RGB 32 GB,4,amd,18,True,3.06,164,ddr4,DIMM
+165,G.Skill Trident Z Neo 32 GB,2,intel,16,False,3.06,165,ddr4,DIMM
+166,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,166,ddr4,DIMM
+167,Patriot Signature 1 GB,2,intel,6,False,6.14,167,ddr5,DIMM
+168,G.Skill Ripjaws V Series 8 GB,2,intel,16,False,6.14,168,ddr5,DIMM
+169,Patriot Viper Steel 16 GB,2,intel,16,False,3.06,169,ddr4,DIMM
+170,Patriot Signature Premium 8 GB,4,amd,19,True,6.14,170,ddr5,DIMM
+171,G.Skill Aegis 4 GB,2,intel,15,False,6.14,171,ddr5,DIMM
+172,Corsair Vengeance RGB Pro SL 32 GB,4,amd,18,True,6.14,172,ddr5,DIMM
+173,Team T-Force Delta RGB 16 GB,4,amd,18,True,3.06,173,ddr4,DIMM
+174,Corsair Vengeance RGB Pro 64 GB,4,amd,18,True,6.14,174,ddr5,DIMM
+175,Crucial CT64G4LFQ424A 64 GB,4,amd,17,True,6.14,175,ddr5,DIMM
+176,G.Skill Trident Z RGB 32 GB,4,amd,18,True,6.14,176,ddr5,DIMM
+177,Crucial Ballistix 16 GB,2,intel,15,False,3.06,177,ddr4,DIMM
+178,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,178,ddr5,DIMM
+179,G.Skill Trident Z RGB 32 GB,4,amd,19,True,3.06,179,ddr4,DIMM
+180,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,180,ddr4,DIMM
+181,G.Skill Ripjaws V 64 GB,4,amd,18,True,6.14,181,ddr5,DIMM
+182,Team Elite 8 GB,4,amd,22,True,3.06,182,ddr4,DIMM
+183,Crucial Ballistix 16 GB,2,intel,16,False,3.06,183,ddr4,DIMM
+184,Team T-FORCE VULCAN Z 32 GB,4,amd,18,True,6.14,184,ddr5,DIMM
+185,Crucial Ballistix 32 GB,2,intel,16,False,6.14,185,ddr5,DIMM
+186,G.Skill Trident Z Royal 256 GB,2,intel,16,False,6.14,186,ddr5,DIMM
+187,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,187,ddr4,DIMM
+188,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,188,ddr5,DIMM
+189,G.Skill Ripjaws Series 8 GB,2,intel,9,False,6.14,189,ddr5,DIMM
+190,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,190,ddr5,DIMM
+191,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,191,ddr4,DIMM
+192,Patriot Viper Steel 8 GB,2,intel,16,False,6.14,192,ddr5,DIMM
+193,Crucial Ballistix RGB 32 GB,2,intel,16,False,6.14,193,ddr5,DIMM
+194,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,194,ddr4,DIMM
+195,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,195,ddr4,DIMM
+196,Gigabyte AORUS RGB 16 GB,4,amd,18,True,3.06,196,ddr4,DIMM
+197,Crucial Ballistix 16 GB,2,intel,16,False,3.06,197,ddr4,DIMM
+198,Corsair Vengeance RGB Pro SL 16 GB,4,amd,18,True,3.06,198,ddr4,DIMM
+199,G.Skill Trident Z Neo 32 GB,4,amd,18,True,6.14,199,ddr5,DIMM
+200,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,200,ddr4,DIMM
+201,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,201,ddr4,DIMM
+202,Crucial Ballistix 16 GB,2,intel,16,False,3.06,202,ddr4,DIMM
+203,G.Skill Trident Z RGB 16 GB,4,amd,18,True,3.06,203,ddr4,DIMM
+204,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,204,ddr5,DIMM
+205,Crucial Ballistix 16 GB,2,intel,16,False,3.06,205,ddr4,DIMM
+206,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,206,ddr4,DIMM
+207,G.Skill Ripjaws V Series 32 GB,2,intel,16,False,6.14,207,ddr5,DIMM
+208,G.Skill Trident Z Neo 32 GB,2,intel,16,False,6.14,208,ddr5,DIMM
+209,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,209,ddr4,DIMM
+210,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,210,ddr5,DIMM
+211,G.Skill Ripjaws V 16 GB,2,intel,16,False,3.06,211,ddr4,DIMM
+212,Corsair Vengeance LPX 128 GB,4,amd,19,True,6.14,212,ddr5,DIMM
+213,Corsair Vengeance LPX 16 GB,4,amd,18,True,3.06,213,ddr4,DIMM
+214,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,214,ddr4,DIMM
+215,Crucial Ballistix 32 GB,2,intel,16,False,6.14,215,ddr5,DIMM
+216,G.Skill Aegis 16 GB,2,intel,16,False,3.06,216,ddr4,DIMM
+217,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,217,ddr4,DIMM
+218,Corsair Vengeance LPX 32 GB,4,amd,18,True,6.14,218,ddr5,DIMM
+219,G.Skill Trident Z RGB 128 GB,4,amd,18,True,6.14,219,ddr5,DIMM
+220,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,220,ddr4,DIMM
+221,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,221,ddr4,DIMM
+222,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,222,ddr5,DIMM
+223,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,223,ddr4,DIMM
+224,G.Skill Aegis 8 GB,2,intel,16,False,3.06,224,ddr4,DIMM
+225,G.Skill Trident Z Neo 16 GB,2,intel,16,False,3.06,225,ddr4,DIMM
+226,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,226,ddr5,DIMM
+227,Corsair Vengeance LPX 8 GB,2,intel,16,False,6.14,227,ddr5,DIMM
+228,Crucial Ballistix 16 GB,2,intel,16,False,3.06,228,ddr4,DIMM
+229,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,229,ddr4,DIMM
+230,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,230,ddr4,DIMM
+231,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,231,ddr4,DIMM
+232,Crucial Ballistix 32 GB,2,intel,16,False,6.14,232,ddr5,DIMM
+233,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,233,ddr4,DIMM
+234,Crucial Ballistix 16 GB,2,intel,16,False,3.06,234,ddr4,DIMM
+235,Kingston HyperX Fury 8 GB,2,intel,16,False,3.06,235,ddr4,DIMM
+236,Corsair Vengeance RGB Pro 64 GB,2,intel,16,False,6.14,236,ddr5,DIMM
+237,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,237,ddr4,DIMM
+238,ADATA XPG SPECTRIX D60G 16 GB,2,intel,16,False,3.06,238,ddr4,DIMM
+239,G.Skill Trident Z Royal 32 GB,4,amd,19,True,6.14,239,ddr5,DIMM
+240,OLOy MD4U083016BGDA 16 GB,2,intel,16,False,3.06,240,ddr4,DIMM
+241,G.Skill Ripjaws V 16 GB,4,amd,18,True,3.06,241,ddr4,DIMM
+242,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,242,ddr4,DIMM
+243,OLOy MD4U083216BJDA 16 GB,2,intel,16,False,3.06,243,ddr4,DIMM
+244,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,244,ddr4,DIMM
+245,G.Skill Trident Z Neo 64 GB,2,intel,16,False,6.14,245,ddr5,DIMM
+246,G.Skill Ripjaws V 32 GB,2,intel,16,False,6.14,246,ddr5,DIMM
+247,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,247,ddr4,DIMM
+248,Kingston HyperX Fury RGB 16 GB,2,intel,16,False,3.06,248,ddr4,DIMM
+249,Silicon Power XPOWER Turbine 16 GB,2,intel,16,False,3.06,249,ddr4,DIMM
+250,Crucial Ballistix MAX 16 GB,4,amd,19,True,3.06,250,ddr4,DIMM
+251,G.Skill Trident Z RGB 64 GB,4,amd,18,True,6.14,251,ddr5,DIMM
+252,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,252,ddr5,DIMM
+253,Corsair Vengeance 16 GB,2,intel,9,False,3.06,253,ddr4,DIMM
+254,Patriot Viper Steel 16 GB,4,amd,19,True,3.06,254,ddr4,DIMM
+255,G.Skill Trident Z Royal 128 GB,4,amd,18,True,6.14,255,ddr5,DIMM
+256,G.Skill Trident Z RGB 32 GB,2,intel,16,False,3.06,256,ddr4,DIMM
+257,Silicon Power SP016GXLZU320BDAJ5 16 GB,2,intel,16,False,3.06,257,ddr4,DIMM
+258,Corsair Vengeance LPX 8 GB,2,intel,16,False,3.06,258,ddr4,DIMM
+259,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,259,ddr4,DIMM
+260,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,260,ddr4,DIMM
+261,Crucial Ballistix 64 GB,2,intel,16,False,6.14,261,ddr5,DIMM
+262,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,262,ddr4,DIMM
+263,Team T-Force Delta RGB 32 GB,2,intel,16,False,6.14,263,ddr5,DIMM
+264,Corsair Dominator Platinum RGB 32 GB,4,amd,18,True,3.06,264,ddr4,DIMM
+265,G.Skill Trident Z Neo 32 GB,2,intel,16,False,3.06,265,ddr4,DIMM
+266,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,266,ddr4,DIMM
+267,Patriot Signature 1 GB,2,intel,6,False,6.14,267,ddr5,DIMM
+268,G.Skill Ripjaws V Series 8 GB,2,intel,16,False,6.14,268,ddr5,DIMM
+269,Patriot Viper Steel 16 GB,2,intel,16,False,3.06,269,ddr4,DIMM
+270,Patriot Signature Premium 8 GB,4,amd,19,True,6.14,270,ddr5,DIMM
+271,G.Skill Aegis 4 GB,2,intel,15,False,6.14,271,ddr5,DIMM
+272,Corsair Vengeance RGB Pro SL 32 GB,4,amd,18,True,6.14,272,ddr5,DIMM
+273,Team T-Force Delta RGB 16 GB,4,amd,18,True,3.06,273,ddr4,DIMM
+274,Corsair Vengeance RGB Pro 64 GB,4,amd,18,True,6.14,274,ddr5,DIMM
+275,Crucial CT64G4LFQ424A 64 GB,4,amd,17,True,6.14,275,ddr5,DIMM
+276,G.Skill Trident Z RGB 32 GB,4,amd,18,True,6.14,276,ddr5,DIMM
+277,Crucial Ballistix 16 GB,2,intel,15,False,3.06,277,ddr4,DIMM
+278,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,278,ddr5,DIMM
+279,G.Skill Trident Z RGB 32 GB,4,amd,19,True,3.06,279,ddr4,DIMM
+280,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,280,ddr4,DIMM
+281,G.Skill Ripjaws V 64 GB,4,amd,18,True,6.14,281,ddr5,DIMM
+282,Team Elite 8 GB,4,amd,22,True,3.06,282,ddr4,DIMM
+283,Crucial Ballistix 16 GB,2,intel,16,False,3.06,283,ddr4,DIMM
+284,Team T-FORCE VULCAN Z 32 GB,4,amd,18,True,6.14,284,ddr5,DIMM
+285,Crucial Ballistix 32 GB,2,intel,16,False,6.14,285,ddr5,DIMM
+286,G.Skill Trident Z Royal 256 GB,2,intel,16,False,6.14,286,ddr5,DIMM
+287,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,287,ddr4,DIMM
+288,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,288,ddr5,DIMM
+289,G.Skill Ripjaws Series 8 GB,2,intel,9,False,6.14,289,ddr5,DIMM
+290,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,290,ddr5,DIMM
+291,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,291,ddr4,DIMM
+292,Patriot Viper Steel 8 GB,2,intel,16,False,6.14,292,ddr5,DIMM
+293,Crucial Ballistix RGB 32 GB,2,intel,16,False,6.14,293,ddr5,DIMM
+294,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,294,ddr4,DIMM
+295,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,295,ddr4,DIMM
+296,Gigabyte AORUS RGB 16 GB,4,amd,18,True,3.06,296,ddr4,DIMM
+297,Crucial Ballistix 16 GB,2,intel,16,False,3.06,297,ddr4,DIMM
+298,Corsair Vengeance RGB Pro SL 16 GB,4,amd,18,True,3.06,298,ddr4,DIMM
+299,G.Skill Trident Z Neo 32 GB,4,amd,18,True,6.14,299,ddr5,DIMM
+300,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,300,ddr4,DIMM
+301,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,301,ddr4,DIMM
+302,Crucial Ballistix 16 GB,2,intel,16,False,3.06,302,ddr4,DIMM
+303,G.Skill Trident Z RGB 16 GB,4,amd,18,True,3.06,303,ddr4,DIMM
+304,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,304,ddr5,DIMM
+305,Crucial Ballistix 16 GB,2,intel,16,False,3.06,305,ddr4,DIMM
+306,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,306,ddr4,DIMM
+307,G.Skill Ripjaws V Series 32 GB,2,intel,16,False,6.14,307,ddr5,DIMM
+308,G.Skill Trident Z Neo 32 GB,2,intel,16,False,6.14,308,ddr5,DIMM
+309,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,309,ddr4,DIMM
+310,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,310,ddr5,DIMM
+311,G.Skill Ripjaws V 16 GB,2,intel,16,False,3.06,311,ddr4,DIMM
+312,Corsair Vengeance LPX 128 GB,4,amd,19,True,6.14,312,ddr5,DIMM
+313,Corsair Vengeance LPX 16 GB,4,amd,18,True,3.06,313,ddr4,DIMM
+314,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,314,ddr4,DIMM
+315,Crucial Ballistix 32 GB,2,intel,16,False,6.14,315,ddr5,DIMM
+316,G.Skill Aegis 16 GB,2,intel,16,False,3.06,316,ddr4,DIMM
+317,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,317,ddr4,DIMM
+318,Corsair Vengeance LPX 32 GB,4,amd,18,True,6.14,318,ddr5,DIMM
+319,G.Skill Trident Z RGB 128 GB,4,amd,18,True,6.14,319,ddr5,DIMM
+320,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,320,ddr4,DIMM
+321,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,321,ddr4,DIMM
+322,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,322,ddr5,DIMM
+323,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,323,ddr4,DIMM
+324,G.Skill Aegis 8 GB,2,intel,16,False,3.06,324,ddr4,DIMM
+325,G.Skill Trident Z Neo 16 GB,2,intel,16,False,3.06,325,ddr4,DIMM
+326,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,326,ddr5,DIMM
+327,Corsair Vengeance LPX 8 GB,2,intel,16,False,6.14,327,ddr5,DIMM
+328,Crucial Ballistix 16 GB,2,intel,16,False,3.06,328,ddr4,DIMM
+329,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,329,ddr4,DIMM
+330,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,330,ddr4,DIMM
+331,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,331,ddr4,DIMM
+332,Crucial Ballistix 32 GB,2,intel,16,False,6.14,332,ddr5,DIMM
+333,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,333,ddr4,DIMM
+334,Crucial Ballistix 16 GB,2,intel,16,False,3.06,334,ddr4,DIMM
+335,Kingston HyperX Fury 8 GB,2,intel,16,False,3.06,335,ddr4,DIMM
+336,Corsair Vengeance RGB Pro 64 GB,2,intel,16,False,6.14,336,ddr5,DIMM
+337,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,337,ddr4,DIMM
+338,ADATA XPG SPECTRIX D60G 16 GB,2,intel,16,False,3.06,338,ddr4,DIMM
+339,G.Skill Trident Z Royal 32 GB,4,amd,19,True,6.14,339,ddr5,DIMM
+340,OLOy MD4U083016BGDA 16 GB,2,intel,16,False,3.06,340,ddr4,DIMM
+341,G.Skill Ripjaws V 16 GB,4,amd,18,True,3.06,341,ddr4,DIMM
+342,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,342,ddr4,DIMM
+343,OLOy MD4U083216BJDA 16 GB,2,intel,16,False,3.06,343,ddr4,DIMM
+344,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,344,ddr4,DIMM
+345,G.Skill Trident Z Neo 64 GB,2,intel,16,False,6.14,345,ddr5,DIMM
+346,G.Skill Ripjaws V 32 GB,2,intel,16,False,6.14,346,ddr5,DIMM
+347,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,347,ddr4,DIMM
+348,Kingston HyperX Fury RGB 16 GB,2,intel,16,False,3.06,348,ddr4,DIMM
+349,Silicon Power XPOWER Turbine 16 GB,2,intel,16,False,3.06,349,ddr4,DIMM
+350,Crucial Ballistix MAX 16 GB,4,amd,19,True,3.06,350,ddr4,DIMM
+351,G.Skill Trident Z RGB 64 GB,4,amd,18,True,6.14,351,ddr5,DIMM
+352,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,352,ddr5,DIMM
+353,Corsair Vengeance 16 GB,2,intel,9,False,3.06,353,ddr4,DIMM
+354,Patriot Viper Steel 16 GB,4,amd,19,True,3.06,354,ddr4,DIMM
+355,G.Skill Trident Z Royal 128 GB,4,amd,18,True,6.14,355,ddr5,DIMM
+356,G.Skill Trident Z RGB 32 GB,2,intel,16,False,3.06,356,ddr4,DIMM
+357,Silicon Power SP016GXLZU320BDAJ5 16 GB,2,intel,16,False,3.06,357,ddr4,DIMM
+358,Corsair Vengeance LPX 8 GB,2,intel,16,False,3.06,358,ddr4,DIMM
+359,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,359,ddr4,DIMM
+360,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,360,ddr4,DIMM
+361,Crucial Ballistix 64 GB,2,intel,16,False,6.14,361,ddr5,DIMM
+362,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,362,ddr4,DIMM
+363,Team T-Force Delta RGB 32 GB,2,intel,16,False,6.14,363,ddr5,DIMM
+364,Corsair Dominator Platinum RGB 32 GB,4,amd,18,True,3.06,364,ddr4,DIMM
+365,G.Skill Trident Z Neo 32 GB,2,intel,16,False,3.06,365,ddr4,DIMM
+366,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,366,ddr4,DIMM
+367,Patriot Signature 1 GB,2,intel,6,False,6.14,367,ddr5,DIMM
+368,G.Skill Ripjaws V Series 8 GB,2,intel,16,False,6.14,368,ddr5,DIMM
+369,Patriot Viper Steel 16 GB,2,intel,16,False,3.06,369,ddr4,DIMM
+370,Patriot Signature Premium 8 GB,4,amd,19,True,6.14,370,ddr5,DIMM
+371,G.Skill Aegis 4 GB,2,intel,15,False,6.14,371,ddr5,DIMM
+372,Corsair Vengeance RGB Pro SL 32 GB,4,amd,18,True,6.14,372,ddr5,DIMM
+373,Team T-Force Delta RGB 16 GB,4,amd,18,True,3.06,373,ddr4,DIMM
+374,Corsair Vengeance RGB Pro 64 GB,4,amd,18,True,6.14,374,ddr5,DIMM
+375,Crucial CT64G4LFQ424A 64 GB,4,amd,17,True,6.14,375,ddr5,DIMM
+376,G.Skill Trident Z RGB 32 GB,4,amd,18,True,6.14,376,ddr5,DIMM
+377,Crucial Ballistix 16 GB,2,intel,15,False,3.06,377,ddr4,DIMM
+378,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,378,ddr5,DIMM
+379,G.Skill Trident Z RGB 32 GB,4,amd,19,True,3.06,379,ddr4,DIMM
+380,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,380,ddr4,DIMM
+381,G.Skill Ripjaws V 64 GB,4,amd,18,True,6.14,381,ddr5,DIMM
+382,Team Elite 8 GB,4,amd,22,True,3.06,382,ddr4,DIMM
+383,Crucial Ballistix 16 GB,2,intel,16,False,3.06,383,ddr4,DIMM
+384,Team T-FORCE VULCAN Z 32 GB,4,amd,18,True,6.14,384,ddr5,DIMM
+385,Crucial Ballistix 32 GB,2,intel,16,False,6.14,385,ddr5,DIMM
+386,G.Skill Trident Z Royal 256 GB,2,intel,16,False,6.14,386,ddr5,DIMM
+387,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,387,ddr4,DIMM
+388,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,388,ddr5,DIMM
+389,G.Skill Ripjaws Series 8 GB,2,intel,9,False,6.14,389,ddr5,DIMM
+390,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,390,ddr5,DIMM
+391,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,391,ddr4,DIMM
+392,Patriot Viper Steel 8 GB,2,intel,16,False,6.14,392,ddr5,DIMM
+393,Crucial Ballistix RGB 32 GB,2,intel,16,False,6.14,393,ddr5,DIMM
+394,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,394,ddr4,DIMM
+395,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,395,ddr4,DIMM
+396,Gigabyte AORUS RGB 16 GB,4,amd,18,True,3.06,396,ddr4,DIMM
+397,Crucial Ballistix 16 GB,2,intel,16,False,3.06,397,ddr4,DIMM
+398,Corsair Vengeance RGB Pro SL 16 GB,4,amd,18,True,3.06,398,ddr4,DIMM
+399,G.Skill Trident Z Neo 32 GB,4,amd,18,True,6.14,399,ddr5,DIMM
+400,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,400,ddr4,DIMM
+401,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,401,ddr4,DIMM
+402,Crucial Ballistix 16 GB,2,intel,16,False,3.06,402,ddr4,DIMM
+403,G.Skill Trident Z RGB 16 GB,4,amd,18,True,3.06,403,ddr4,DIMM
+404,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,404,ddr5,DIMM
+405,Crucial Ballistix 16 GB,2,intel,16,False,3.06,405,ddr4,DIMM
+406,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,406,ddr4,DIMM
+407,G.Skill Ripjaws V Series 32 GB,2,intel,16,False,6.14,407,ddr5,DIMM
+408,G.Skill Trident Z Neo 32 GB,2,intel,16,False,6.14,408,ddr5,DIMM
+409,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,409,ddr4,DIMM
+410,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,410,ddr5,DIMM
+411,G.Skill Ripjaws V 16 GB,2,intel,16,False,3.06,411,ddr4,DIMM
+412,Corsair Vengeance LPX 128 GB,4,amd,19,True,6.14,412,ddr5,DIMM
+413,Corsair Vengeance LPX 16 GB,4,amd,18,True,3.06,413,ddr4,DIMM
+414,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,414,ddr4,DIMM
+415,Crucial Ballistix 32 GB,2,intel,16,False,6.14,415,ddr5,DIMM
+416,G.Skill Aegis 16 GB,2,intel,16,False,3.06,416,ddr4,DIMM
+417,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,417,ddr4,DIMM
+418,Corsair Vengeance LPX 32 GB,4,amd,18,True,6.14,418,ddr5,DIMM
+419,G.Skill Trident Z RGB 128 GB,4,amd,18,True,6.14,419,ddr5,DIMM
+420,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,420,ddr4,DIMM
+421,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,421,ddr4,DIMM
+422,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,422,ddr5,DIMM
+423,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,423,ddr4,DIMM
+424,G.Skill Aegis 8 GB,2,intel,16,False,3.06,424,ddr4,DIMM
+425,G.Skill Trident Z Neo 16 GB,2,intel,16,False,3.06,425,ddr4,DIMM
+426,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,6.14,426,ddr5,DIMM
+427,Corsair Vengeance LPX 8 GB,2,intel,16,False,6.14,427,ddr5,DIMM
+428,Crucial Ballistix 16 GB,2,intel,16,False,3.06,428,ddr4,DIMM
+429,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,429,ddr4,DIMM
+430,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,430,ddr4,DIMM
+431,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,431,ddr4,DIMM
+432,Crucial Ballistix 32 GB,2,intel,16,False,6.14,432,ddr5,DIMM
+433,Corsair Vengeance RGB Pro 16 GB,4,amd,18,True,3.06,433,ddr4,DIMM
+434,Crucial Ballistix 16 GB,2,intel,16,False,3.06,434,ddr4,DIMM
+435,Kingston HyperX Fury 8 GB,2,intel,16,False,3.06,435,ddr4,DIMM
+436,Corsair Vengeance RGB Pro 64 GB,2,intel,16,False,6.14,436,ddr5,DIMM
+437,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,437,ddr4,DIMM
+438,ADATA XPG SPECTRIX D60G 16 GB,2,intel,16,False,3.06,438,ddr4,DIMM
+439,G.Skill Trident Z Royal 32 GB,4,amd,19,True,6.14,439,ddr5,DIMM
+440,OLOy MD4U083016BGDA 16 GB,2,intel,16,False,3.06,440,ddr4,DIMM
+441,G.Skill Ripjaws V 16 GB,4,amd,18,True,3.06,441,ddr4,DIMM
+442,Corsair Vengeance RGB Pro 32 GB,2,intel,16,False,3.06,442,ddr4,DIMM
+443,OLOy MD4U083216BJDA 16 GB,2,intel,16,False,3.06,443,ddr4,DIMM
+444,Team T-FORCE VULCAN Z 16 GB,2,intel,16,False,3.06,444,ddr4,DIMM
+445,G.Skill Trident Z Neo 64 GB,2,intel,16,False,6.14,445,ddr5,DIMM
+446,G.Skill Ripjaws V 32 GB,2,intel,16,False,6.14,446,ddr5,DIMM
+447,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,447,ddr4,DIMM
+448,Kingston HyperX Fury RGB 16 GB,2,intel,16,False,3.06,448,ddr4,DIMM
+449,Silicon Power XPOWER Turbine 16 GB,2,intel,16,False,3.06,449,ddr4,DIMM
+450,Crucial Ballistix MAX 16 GB,4,amd,19,True,3.06,450,ddr4,DIMM
+451,G.Skill Trident Z RGB 64 GB,4,amd,18,True,6.14,451,ddr5,DIMM
+452,G.Skill Trident Z RGB 32 GB,2,intel,16,False,6.14,452,ddr5,DIMM
+453,Corsair Vengeance 16 GB,2,intel,9,False,3.06,453,ddr4,DIMM
+454,Patriot Viper Steel 16 GB,4,amd,19,True,3.06,454,ddr4,DIMM
+455,G.Skill Trident Z Royal 128 GB,4,amd,18,True,6.14,455,ddr5,DIMM
+456,G.Skill Trident Z RGB 32 GB,2,intel,16,False,3.06,456,ddr4,DIMM
+457,Silicon Power SP016GXLZU320BDAJ5 16 GB,2,intel,16,False,3.06,457,ddr4,DIMM
+458,Corsair Vengeance LPX 8 GB,2,intel,16,False,3.06,458,ddr4,DIMM
+459,Crucial Ballistix RGB 16 GB,2,intel,16,False,3.06,459,ddr4,DIMM
+460,Team T-Force Delta RGB 16 GB,2,intel,16,False,3.06,460,ddr4,DIMM
+461,Crucial Ballistix 64 GB,2,intel,16,False,6.14,461,ddr5,DIMM
+462,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,3.06,462,ddr4,DIMM
+463,Team T-Force Delta RGB 32 GB,2,intel,16,False,6.14,463,ddr5,DIMM
+464,Corsair Dominator Platinum RGB 32 GB,4,amd,18,True,3.06,464,ddr4,DIMM
+465,G.Skill Trident Z Neo 32 GB,2,intel,16,False,3.06,465,ddr4,DIMM
+466,Kingston HyperX Fury 16 GB,2,intel,16,False,3.06,466,ddr4,DIMM
+467,Patriot Signature 1 GB,2,intel,6,False,6.14,467,ddr5,DIMM
+468,G.Skill Ripjaws V Series 8 GB,2,intel,16,False,6.14,468,ddr5,DIMM
+469,Patriot Viper Steel 16 GB,2,intel,16,False,3.06,469,ddr4,DIMM
+470,Patriot Signature Premium 8 GB,4,amd,19,True,6.14,470,ddr5,DIMM
+471,G.Skill Aegis 4 GB,2,intel,15,False,6.14,471,ddr5,DIMM
+472,Corsair Vengeance RGB Pro SL 32 GB,4,amd,18,True,6.14,472,ddr5,DIMM
+473,Team T-Force Delta RGB 16 GB,4,amd,18,True,3.06,473,ddr4,DIMM
+474,Corsair Vengeance RGB Pro 64 GB,4,amd,18,True,6.14,474,ddr5,DIMM
+475,Crucial CT64G4LFQ424A 64 GB,4,amd,17,True,6.14,475,ddr5,DIMM
+476,G.Skill Trident Z RGB 32 GB,4,amd,18,True,6.14,476,ddr5,DIMM
+477,Crucial Ballistix 16 GB,2,intel,15,False,3.06,477,ddr4,DIMM
+478,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,478,ddr5,DIMM
+479,G.Skill Trident Z RGB 32 GB,4,amd,19,True,3.06,479,ddr4,DIMM
+480,Corsair Vengeance LPX 16 GB,2,intel,15,False,3.06,480,ddr4,DIMM
+481,G.Skill Ripjaws V 64 GB,4,amd,18,True,6.14,481,ddr5,DIMM
+482,Team Elite 8 GB,4,amd,22,True,3.06,482,ddr4,DIMM
+483,Crucial Ballistix 16 GB,2,intel,16,False,3.06,483,ddr4,DIMM
+484,Team T-FORCE VULCAN Z 32 GB,4,amd,18,True,6.14,484,ddr5,DIMM
+485,Crucial Ballistix 32 GB,2,intel,16,False,6.14,485,ddr5,DIMM
+486,G.Skill Trident Z Royal 256 GB,2,intel,16,False,6.14,486,ddr5,DIMM
+487,G.Skill Trident Z RGB 16 GB,2,intel,16,False,3.06,487,ddr4,DIMM
+488,Corsair Vengeance LPX 32 GB,2,intel,16,False,6.14,488,ddr5,DIMM
+489,G.Skill Ripjaws Series 8 GB,2,intel,9,False,6.14,489,ddr5,DIMM
+490,Corsair Vengeance RGB Pro 32 GB,4,amd,18,True,6.14,490,ddr5,DIMM
+491,Corsair Vengeance LPX 16 GB,2,intel,16,False,3.06,491,ddr4,DIMM
+492,Patriot Viper Steel 8 GB,2,intel,16,False,6.14,492,ddr5,DIMM
+493,Crucial Ballistix RGB 32 GB,2,intel,16,False,6.14,493,ddr5,DIMM
+494,Corsair Vengeance RGB Pro 16 GB,2,intel,16,False,3.06,494,ddr4,DIMM
+495,G.Skill Ripjaws V Series 16 GB,2,intel,16,False,3.06,495,ddr4,DIMM
+496,Gigabyte AORUS RGB 16 GB,4,amd,18,True,3.06,496,ddr4,DIMM
+497,Crucial Ballistix 16 GB,2,intel,16,False,3.06,497,ddr4,DIMM
+498,Corsair Vengeance RGB Pro SL 16 GB,4,amd,18,True,3.06,498,ddr4,DIMM
+499,G.Skill Trident Z Neo 32 GB,4,amd,18,True,6.14,499,ddr5,DIMM

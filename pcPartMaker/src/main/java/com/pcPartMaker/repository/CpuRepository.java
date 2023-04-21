@@ -15,4 +15,6 @@ public interface CpuRepository extends JpaRepository<CPU, Integer> {
     List<CPU> findAll();
 
     Optional<CPU> findByModelNumber(Integer modelNumber);
+
+    List<CPU> findByModelName(String cpu);
 }

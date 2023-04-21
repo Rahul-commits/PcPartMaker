@@ -26,7 +26,7 @@ public class MotherboardAndPciSlot implements Serializable {
    // @Id
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
    // @MapsId("slotId")
-    @JoinColumn(name = "pciExpressSlotType")
+    @JoinColumn(name = "slot_type")
     private PciExpressSlotType slotType;
 
     @Column(name = "quantity")
